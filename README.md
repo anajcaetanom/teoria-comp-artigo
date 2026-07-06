@@ -31,14 +31,13 @@ Execute o comando abaixo para baixar e isolar todas as dependências do projeto 
 nix-shell
 ```
 
-1. **Executar:**
+2. **Executar:**
 Dentro do ambiente do `nix-shell`, execute o arquivo principal com o `runghc`:
 ```bash
 runghc -isrc app/Main.hs
 ```
 
-
-4. **Compilar via Cabal (Opcional):**
+## Compilar via Cabal (Opcional)
 Se preferir compilar o executável de forma tradicional:
 ```bash
 cabal build
