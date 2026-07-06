@@ -47,7 +47,7 @@ cabal run
 
 ---
 
-## 📁 Estrutura de Diretórios
+## Estrutura de Diretórios
 
 ```text
 .
